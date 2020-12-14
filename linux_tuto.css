@@ -1,0 +1,24 @@
+
+.navbar{
+    width: 22%;
+    background: #151516e7;
+    color: #eeeeee;
+    left: 0;
+    height: 100%;
+    
+    position: fixed;
+    margin-top: -8px;
+}
+.selected_page{
+    flex:2;
+}
+.navbar a{ 
+    padding: 15px 10px 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f3eaea;
+    display: block;
+}
+.navbar a:hover {
+
+}
