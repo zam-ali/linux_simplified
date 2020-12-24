@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="general.css" />
+<link rel="stylesheet" type="text/css" href="distro.css" />
+<script type="text/javascript" src="loader.js"></script>
+<script type="text/javascript" src="distros.js"></script>
+<head></head>
+
+<body onload="load()">
+    <div id="loader"></div>
+    <div id="page" class="animate-bottom">
+        <h1>Linux Distributions</h1>
+        <p> 
+            A Linux Distribution is an operating system based 
+            on the Linux Kernel , and a package management system.
+            It contains GNU tools/libraries , pre-installed software , 
+            a window system, a window manager and a desktop environment.  
+        </br>The list below contains some distributions of Linux. <b>Click on images to see derivatives.</b> 
+        </p>
+        <div id="origin_dis_wrapper" class="come">
+            <div class="img">
+                <img onclick ="load_debian()" src="./images/debian.png" alt="Debian">
+                 <h3>Debian</h3>
+            </div>
+            <div class="img">
+                <img onclick="load_arch()"src="./images/arch.png" alt="Arch Linux">
+                 <h3>Arch Linux</h3>
+            </div>
+            <div class="img">
+                <img onclick="load_red()" src="./images/redhat.png" alt="Arch Linux">
+                 <h3>RedHat</h3>
+            </div>
+        </div>
+        <div id="debian">
+            <div class="img">
+                <img src="./images/mint.png" alt="Linux Mint LMDE">
+                 <h3>Linux Mint LMDE</h3>
+            </div>
+            <div class="img">
+                <img src="./images/ubuntu.png" alt="Ubuntu">
+                 <h3>Ubuntu</h3>
+            </div>
+            <div class="img">
+                <img src="./images/kali.png" alt="Kali Linux">
+                 <h3>Kali Linux</h3>
+            </div>
+            <div class="img">
+                <img onclick="load_origin_deb()" src="./images/back.png" alt="Back">
+            </div>
+        </div>
+        <div id="arch">
+            <div class="img">
+                <img src="./images/manjaro.png" alt="Manjaro">
+                 <h3>Manjaro</h3>
+            </div>
+            <div class="img">
+                <img src="./images/endeavouros.png" alt="EndeavourOS">
+                 <h3>EndeavourOS</h3>
+            </div>
+            <div class="img">
+                <img onclick="load_origin_arch()" src="./images/back.png" alt="Back">
+            </div>
+        </div>
+        <div id="red">
+            <div class="img">
+                <img src="./images/fedora.png" alt="Fedora">
+                 <h3>Fedora</h3>
+            </div>
+            <div class="img">
+                <img src="./images/redhat.png" alt="RedHat">
+                 <h3>RedHat</h3>
+            </div>
+            <div class="img">
+                <img src="./images/rocky.png" alt="Rocky Linux">
+                 <h3>Rocky Linux</h3>
+            </div>
+            <div class="img">
+                <img onclick="load_origin_red()" src="./images/back.png" alt="Back">
+            </div>
+        </div>
+
+
+        </div>
+        </body>

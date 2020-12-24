@@ -1,0 +1,75 @@
+#origin_dis_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(500px, 1fr));
+  }
+  body{
+    background: url('images/distros.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  
+  #debian {
+    display: none;
+    grid-template-columns: repeat(auto-fill,minmax(500px, 1fr));
+  }
+  #arch{
+    display: none;
+    grid-template-columns: repeat(auto-fill,minmax(500px, 1fr));
+  }
+  #red{
+    display: none;
+    grid-template-columns: repeat(auto-fill,minmax(500px, 1fr));
+  }
+  img {
+    margin: 10px auto;
+    width: 350px;
+    height: 230px;
+    justify-content: center;
+    transform: scale(0.8);
+    flex: 1 1 200px;
+    transition: all .4s ease-in-out;
+    }
+    img:hover{
+        transform: scale(1)
+    }
+h3{
+    margin-top: -15px;
+}
+
+.go-away {
+    position: relative;
+    -webkit-animation-name: go-away;
+    -webkit-animation-duration: 1.2s;
+    animation-name: go-away;
+    animation-duration: 1.2s;
+  }
+  
+  @-webkit-keyframes go-away {
+    from { bottom:0px; opacity:1 } 
+    to { bottom:100px; opacity:0 }
+  }
+  
+  @keyframes go-away { 
+    from{ bottom:0px; opacity:1 } 
+    to{ bottom:100px; opacity:0 }
+  }
+  .come{
+    position: relative;
+    -webkit-animation-name: come;
+    -webkit-animation-duration: 1.2s;
+    animation-name: come;
+    animation-duration: 1.2s;
+  }
+  
+  @-webkit-keyframes come {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes come { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0px; opacity:1 }
+  }

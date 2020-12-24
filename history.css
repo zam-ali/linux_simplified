@@ -1,0 +1,12 @@
+  .mascot_linus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  body {
+    background-image: url("./images/terminal.gif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }

@@ -15,10 +15,11 @@
 .navbar a{ 
     padding: 15px 10px 10px 20px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 23px;
     color: #f3eaea;
     display: block;
 }
 .navbar a:hover {
-
+     font-size:25px;
+     font-weight: bold;
 }
