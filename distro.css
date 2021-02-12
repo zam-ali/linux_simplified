@@ -3,7 +3,7 @@
     grid-template-columns: repeat(auto-fill,minmax(500px, 1fr));
   }
   body{
-    background: url('images/distros.jpg') no-repeat center center fixed; 
+    background: url('images/distros.jpg') no-repeat center center fixed ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -26,7 +26,7 @@
   img {
     margin: 10px auto;
     width: 350px;
-    height: 230px;
+    height: 210px;
     justify-content: center;
     transform: scale(0.8);
     flex: 1 1 200px;

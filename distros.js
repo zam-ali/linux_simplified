@@ -2,7 +2,7 @@ var timeout;
 
 function load_debian() {
     document.getElementById('origin_dis_wrapper').className = 'go-away';
-    timeout = setTimeout(debian_based, 1200);
+    timeout = setTimeout(debian_based, 1000);
 }
 
 function debian_based() {
@@ -12,7 +12,7 @@ function debian_based() {
 }
 function load_red() {
     document.getElementById('origin_dis_wrapper').className = 'go-away';
-    timeout = setTimeout(red_based, 1200);
+    timeout = setTimeout(red_based, 1000);
 }
 
 function red_based() {
@@ -22,7 +22,7 @@ function red_based() {
 }
 function load_arch() {
     document.getElementById('origin_dis_wrapper').className = 'go-away';
-    timeout = setTimeout(arch_based, 1200);
+    timeout = setTimeout(arch_based, 1000);
 }
 
 function arch_based() {
@@ -37,7 +37,7 @@ function arch_based() {
 
 function load_origin_deb() {
     document.getElementById('debian').className = 'go-away';
-    timeout = setTimeout(go_origin_deb, 1200);
+    timeout = setTimeout(go_origin_deb, 1000);
 }
 function go_origin_deb(){
     document.getElementById('debian').style.display = "none";
@@ -47,7 +47,7 @@ function go_origin_deb(){
 }
 function load_origin_arch() {
     document.getElementById('arch').className = 'go-away';
-    timeout = setTimeout(go_origin_arch, 1200);
+    timeout = setTimeout(go_origin_arch, 1000);
 }
 function go_origin_arch(){
     document.getElementById('arch').style.display = "none";
@@ -57,7 +57,7 @@ function go_origin_arch(){
 }
 function load_origin_red() {
     document.getElementById('red').className = 'go-away';
-    timeout = setTimeout(go_origin_red, 1200);
+    timeout = setTimeout(go_origin_red, 1000);
 }
 function go_origin_red(){
     document.getElementById('red').style.display = "none";

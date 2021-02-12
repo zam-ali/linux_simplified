@@ -1,0 +1,17 @@
+body {
+    background-image: url("./images/terminal.gif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+li{
+    color:rgb(74, 218, 17);
+    font-size: 23px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+p img {
+    height: initial;
+    width: initial;
+}
