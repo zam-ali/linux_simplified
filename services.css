@@ -6,13 +6,6 @@ body {
     background-size: cover;
     margin-bottom: 200px;
   }
-li{
-    color:rgb(74, 218, 17);
-    font-size: 23px;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-p img {
-    height: initial;
-    width: initial;
+  p b{
+    color: lightsalmon;
 }
